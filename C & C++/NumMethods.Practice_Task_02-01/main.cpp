@@ -22,10 +22,10 @@ int main()
 	const int cols = 5;
 	// Augmented matrix of the linear system
 	double C[rows][cols] = {
-		   {1, -1, -1, 1, 4}, 
-           {2, -1, 3, -2, 1},
-           {1, 0, -1, 2, 6},
-           {3, -1, 1, -1, 0}
+	       {1, -1, -1, 1, 4}, 
+            {2, -1, 3, -2, 1},
+            {1, 0, -1, 2, 6},
+            {3, -1, 1, -1, 0}
 		};	
 
 	printf("Augmented matrix of a system of linear algebraic equations:\n");
