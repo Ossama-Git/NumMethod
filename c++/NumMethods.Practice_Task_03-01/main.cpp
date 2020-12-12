@@ -11,8 +11,8 @@ int main()
 	cout << "Numerical Methods: Practice Task #03 / Example A (trapezoid rule)" << endl;
 
 	double a = 0;
-	double b = M_PI * 2;
-	int n = 300;
+	double b = log(2);
+	int n = 200;
 	double h = (b - a) / n;
 
 	double I = 0;
@@ -40,5 +40,5 @@ double TrapezoidSquare(double x1, double x2, double f1, double f2)
 
 double F(double x)
 {
-	return pow(x, 2) * cos(x);
+	return x*exp(-x);
 }
