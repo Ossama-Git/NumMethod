@@ -9,7 +9,7 @@ def f(x):
 
 a = 0
 b = math.log(2)
-n = 300
+n =300
 h = (b - a) / n
 
 x = arange(a, b + h, h)
@@ -22,7 +22,17 @@ for xi in x:
 #print(y)
 
 I = trapz(y, x=x)
-print(I)
+# The output contains the value of the definite integral and the estimated precision
+print("Definite integral approximation: \n\t ", I)
+
+# the right answer
+r = 0.5 * math.log(math.exp(1) / 2)
+print("the right answer : \n\t", r)
+print("\n")
+
+# The difference  between the right answer and the approximation
+d = math.fabs(I - r)
+print("Absolute value of the difference: \n\t", d)
 
 # setting the axes at the centre
 fig = plt.figure()
