@@ -13,7 +13,7 @@ int main()
 	double x2 = 2;
 	double f1, f, f2;
 	double x;
-	int n = 11;
+	int n = 20;
 
 	for (int i = 1; i <= n; i++)
 	{
